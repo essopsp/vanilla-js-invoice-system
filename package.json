@@ -1,0 +1,21 @@
+{
+    "name": "split-bill-manager-v2",
+    "version": "2.0.0",
+    "description": "Enterprise-grade financial tracking system built with Vanilla JS",
+    "main": "server/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server/index.js",
+        "dev": "node --watch server/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "nanoid": "^5.1.6",
+        "pg": "^8.11.3"
+    }
+}
